@@ -96,7 +96,6 @@ while(<$in>){ # open the file
     }else{
         # now dealing with the individual variants
         $c++;
-        #~ next if $c < 800;
         if($c % 100==0){ print "$c of $total_positions positions done\n"; } # progress reporting...
         
         my @line = split('\s+',$_); # first split the line into an array
