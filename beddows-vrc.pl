@@ -54,7 +54,7 @@ The results.txt file has 1 row per variant and 9 columns:
      
 =cut
 use Getopt::Long;
-use JSON qw( decode_json ); # would use if harder to parse info was requested
+use JSON qw( decode_json ); 
 
 my $usage = <<EOF;
 To run this program on the command line type: perl beddows-vrc.pl -i path/to/vcf/file.vcf
